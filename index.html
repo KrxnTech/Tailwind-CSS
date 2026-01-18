@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS Demo</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- DIRECTLY YAHA PE STYLING -->
+    <style type="text/tailwindcss">
+        .box {
+            @apply bg-purple-500 w-1/2 rounded-2xl border-2 border-black h-[150px] m-10;
+        }
+
+        .text {
+            @apply text-white text-center text-6xl font-mono pt-10;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- FONT FAMILY  🍃  -->
+
+    <!-- <p class="font-sans ...">Krishna</p>
+    <p class="font-serif ...">Krishna</p>
+    <p class="font-mono ...">Krishna</p> -->
+
+    <!-- FONT SIZE 🍃  -->
+
+    <!-- <h1 class="text-lg ... italic text-red-500 font-semibold text-center">KRISHNA</h1>
+    <h1 class="text-xl ... italic text-green-500 font-medium">KRISHNA</h1>
+    <h1 class="text-2xl ... italic text-blue-500 font-normal text-center">KRISHNA</h1>
+    <h1 class="text-3xl ... italic text-yellow-500 font-light">KRISHNA</h1>
+    <h1 class="text-4xl ... italic text-pink-500 font-extralight text-center">KRISHNA</h1>
+    <h1 class="text-5xl ... italic text-purple-500 font-thin">KRISHNA</h1>
+    <h1 class="text-6xl ... italic text-orange-500 font-extralight text-center">KRISHNA</h1>
+    <h1 class="text-7xl ... italic text-green-500 font-light">KRISHNA</h1>
+    <h1 class="text-8xl ... italic text-blue-500 font-normal text-center">KRISHNA</h1>
+    <h1 class="text-9xl ... italic text-blue-600/25 dark:text-sky-400/25 font-light">KRISHNA</h1> -->
+
+
+    <!-- HEIGHT WIDTH AND WORKING ON BOX ELEMENT 🍃  -->
+
+    <!-- <div
+        class="bg-violet-500 hover:bg-violet-600 focus:outline-2 focus:outline-offset-2 focus:outline-violet-500 active:bg-violet-700 ... w-2xs h-screen border-black">
+        <h1 class="text-yellow-50/50 ... text-center text-6xl font-mono">KRISHNA</h1>
+    </div> -->
+
+    <!-- COLORS 🍃  -->
+
+    <!-- <div class="bg-purple-700 w-1/2 h-56 text-white font-sans m-4 ">
+        <p class="p-5 text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto animi
+            consectetur
+            fugit praesentium. Vitae
+            tempora maxime nihil quo sed maiores tempore in voluptatem ipsum, aut labore a possimus omnis delectus.</p>
+
+        <div class="bg-black w-1/2 h-56 m-10">
+            <p class="text-center text-white py-10">Hello I am Noob</p>
+        </div>
+    </div> -->
+
+    <!-- FLEX PROPERTY 🍃 -->
+
+    <!-- <div class="flex justify-center space-x-10 p-10">
+        <div class="bg-red-500 w-1/2 rounded-2xl border-2 border-black h-[150px]"></div>
+        <div class="bg-green-500 w-1/2 rounded-2xl border-2 border-black h-[200px]"></div>
+        <div class="bg-blue-500 w-1/2 rounded-2xl border-2 border-black h-[250px]"></div>
+    </div> -->
+
+    <!-- BREAKING POINT'S 🍃 -->
+
+    <div class="box sm:w-32 lg:w-48">
+        <h1 class="text">HELLO</h1>
+    </div>
+    <div class="box sm:bg-green-500 lg:bg-orange-500"></div>
+
+
+
+
+</body>
+
+</html>
